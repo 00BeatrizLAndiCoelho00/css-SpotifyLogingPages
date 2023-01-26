@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ifood</title>
+    <title>Spotify</title>
 
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/heather.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
+
 
 </head>
-<body>
-    <header>
+<body class="p-3 mb-2 bg-dark text-white text-center"  >
+    <header >
 
-        <img src="img/7124272_spotify_logo_icon (1).svg" alt="logo">
-
+        <img class="logo" src="img/7124272_spotify_logo_icon (1).svg" alt="logo">
+        
+        <div class="jSliMW"> </div>
+    
     </header>
 
     <main>
 
-        <div class="socialMediaLog">
-            <button onclick="calcular()" class="button " >continuar com o facebook</button>
-            <button onclick="calcular()" class="button" >continuar com a apple</button>
-            <button onclick="calcular()" class="button" >continuar com o google </button>
-            <button onclick="calcular()" class="button" >continuar com o numero de telefone </button>
+        <div class="socialMediaLog  col-8 mx-auto" >
+            <button onclick="calcular()" class="   w-50 p-3 button btn-lg  p-3 mb-3  btn-primary text-white text-center  border-primary rounded-pill "  ><i class="fab fa-facebook-square"></i>continuar com o facebook</button>
+
+            <button onclick="calcular()" class="  w-50 p-3 button btn-lg  p-3 mb-3 btn btn-light  border-dark rounded-pill" ><i class="fab fa-apple rounded-pill" > </i> continuar com a apple</button>
+
+            <button onclick="calcular()" class="  w-50 p-3 button btn-lg btn p-3 mb-3  btn-dark border-light rounded-pill " ><i class="fab fa-google"> </span></i>continuar com o google </button>
+
+            <button onclick="calcular()" class=" w-50 p-3 button p-3 mb-2 btn-lg btn btn-dark border-light rounded-pill" >continuar com o numero de telefone </button>
         </div>
         <p>ou</p>
 
@@ -51,8 +61,7 @@
 
         <div class="inscrever-se">
             
-        <a href="https://www.spotify.com/br/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1" target="_blank"
-        rel="_blank">
+            <button onclick="calcular()" class="button" >entrar no spotify </button>
 
         </div>
 
