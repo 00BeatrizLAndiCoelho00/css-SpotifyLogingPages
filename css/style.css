@@ -45,7 +45,7 @@ body{
  
   }
   
-  .separator h4{
+  .separator h5{
     padding: 0 1rem;
     
   }
@@ -61,7 +61,7 @@ body{
     
     
   }
-.emailBox{
+.email_senhaBox{
 
     display: flex;
     justify-content: center;
