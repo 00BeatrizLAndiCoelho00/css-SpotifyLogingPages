@@ -23,33 +23,17 @@ a{
 }
 
 body{
-    font-family: 'Oswald', sans-serif;
+   
     margin: 0;
     padding: 0px;
     font-size: 16px;
 
 }
 
-
-.separator{
-    display:flex;
-    align-items: center;
-
-    width: 32vw;
-  }
+main{
+    font-family: 'Poppins', sans-serif;
+}
   
-  .separator .line{
-    height: 1px;
-    flex: 7;
-    background-color: rgb(255, 255, 255);
- 
-  }
-  
-  .separator h5{
-    padding: 0 1rem;
-    
-  }
-
 .ou{
     display: flex;
     align-items: center;
@@ -65,4 +49,9 @@ body{
 
     display: flex;
     justify-content: center;
+}
+
+.checkbox_text_buttomLogIn {
+   
+    width: 32vw;
 }
