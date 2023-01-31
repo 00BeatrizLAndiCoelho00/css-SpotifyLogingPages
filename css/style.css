@@ -33,25 +33,10 @@ body{
 main{
     font-family: 'Poppins', sans-serif;
 }
-  
-.ou{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.email{
-    
-    width: 32vw;
-    
-    
-  }
-.email_senhaBox{
 
-    display: flex;
-    justify-content: center;
-}
 
-.checkbox_text_buttomLogIn {
-   
-    width: 32vw;
-}
+
+
+
+
+

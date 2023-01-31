@@ -1,0 +1,11 @@
+/*320px — 480px: dispositivos móveis */
+
+  
+
+@media screen and (max-width: 480px) {
+
+   
+    .socialMediaLog {
+        font-weight: 900;
+    }
+  }
