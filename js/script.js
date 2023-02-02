@@ -7,7 +7,7 @@ const server = http.createServer(function(req, res) {
  fs.readFile('index.html', function(error, data){
     if (error) {
         res.writeHead(404)
-        res.write('Error : file not found')
+        res.write('Error : file not found ')
     } else {
         res.write(data)
     }
