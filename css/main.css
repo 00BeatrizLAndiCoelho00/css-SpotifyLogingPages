@@ -1,18 +1,27 @@
-.ou{
-    display: flex;
+.buttonsSocialMedia{
+    margin-top: 6vh;
+}
+
+
+.separator{
+    display:flex;
     align-items: center;
-    justify-content: center;
-}
-.email{
-    width: 32vw;
+    margin-bottom: 3vh;
+  }
+  
+  .separator .line{
+    height: 1px;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .separator h4{
+    padding: 0 2rem;
+  }
 
-}
-.email_senhaBox{
+  .email_senhaBox{
+    font-weight: 900;
+  }
 
-    display: flex;
-    justify-content: center;
-}
 
-.checkbox_text_buttomLogIn {
-    width: 32vw;
-}
+  

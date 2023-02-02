@@ -1,42 +1,136 @@
-:root{
+:root {
 
 
     --background: rgba(0, 0, 0, 255);
-    
+
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
 
-html{
+html {
 
     scroll-behavior: smooth;
 }
-a{
+
+a {
 
     text-decoration: none;
     color: inherit;
 }
 
-body{
-   
+body {
+
     margin: 0;
     padding: 0px;
     font-size: 16px;
 
+
 }
 
-main{
+header {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+main {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+footer {
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
 
 
+.mainContent {
+   
+    width: 34vw;
+}
+
+.FooterContent {
+    width: 34vw;
+}
+
+
+
+.itemLogIn {
+    
+    width: 30%;
+}
 
 
 
 
+@media screen and (max-width: 878px) {
 
+    .mainContent {
+
+     
+        width: 45vw;
+    }
+
+    .FooterContent {
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 778px) {
+
+    .mainContent {
+
+
+        width: 52vw;
+    }
+
+    .FooterContent {
+        width: 52vw;
+    }
+}
+
+@media screen and (max-width: 645px) {
+
+
+    .mainContent {
+
+        width: 77vw;
+    }
+
+    .FooterContent {
+        width: 77vw;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+
+    .mainContent {
+
+        width: 77vw;
+    }
+
+    .FooterContent {
+        width: 77vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .mainContent {
+
+    
+        width: 95vw;
+    }
+
+    .FooterContent {
+        width: 77vw;
+    }
+}
